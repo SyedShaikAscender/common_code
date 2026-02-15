@@ -1,0 +1,16 @@
+.first-child-pl-0 > .px-1:first-child,
+.first-child-pl-0 > .px-2:first-child,
+.first-child-pl-0 > .px-3:first-child,
+.first-child-pl-0 > .px-4:first-child,
+.first-child-pl-0 > li:first-child
+{
+    padding-left: 0px !important;
+}
+.last-child-pr-0 > .px-1:last-child,
+.last-child-pr-0 > .px-2:last-child,
+.last-child-pr-0 > .px-3:last-child,
+.last-child-pr-0 > .px-4:last-child,
+.last-child-pr-0 > li:last-child
+{
+    padding-right: 0px !important;
+}

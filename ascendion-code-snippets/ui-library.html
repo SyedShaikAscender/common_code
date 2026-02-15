@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern UI Library</title>
+  <link rel="stylesheet" href="path-to-your-styles/buttons.css">
+  <link rel="stylesheet" href="path-to-your-styles/navbar.css">
+  <link rel="stylesheet" href="path-to-your-styles/text-on-image.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+    }
+    .container {
+      padding: 2rem;
+    }
+    .sidebar {
+      width: 250px;
+      height: 100vh;
+      background: #343a40;
+      color: white;
+      padding: 1rem;
+      position: fixed;
+    }
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin: 1rem 0;
+    }
+    .main-content {
+      margin-left: 260px;
+      padding: 2rem;
+    }
+    .card-custom {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar bg-dark">
+    <div class="nav-profile">
+      <div class="nav-profile_oval">
+        <img class="nav-profile_image" src="https://via.placeholder.com/40" alt="Profile">
+      </div>
+      <div style="margin-left: 8px;">
+        <div class="nav-profile_name">Syed Baji</div>
+        <div class="nav-profile_designation">UI Developer</div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h5>Sidebar</h5>
+    <a href="#">Dashboard</a>
+    <a href="#">Settings</a>
+    <a href="#">Profile</a>
+    <a href="#">Logout</a>
+  </div>
+
+  <div class="main-content">
+    <div class="container">
+      <!-- Buttons -->
+      <h3>Buttons</h3>
+      <button class="obtn obtn-primary">Primary</button>
+      <button class="obtn obtn-secondary">Secondary</button>
+      <button class="obtn obtn-primary-outline">Outline</button>
+
+      <!-- Inputs -->
+      <h3 class="mt-4">Input Fields</h3>
+      <input type="text" class="form-control mb-2" placeholder="Enter text">
+      <input type="email" class="form-control" placeholder="Enter email">
+
+      <!-- Modal Trigger -->
+      <h3 class="mt-4">Modal</h3>
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Open Modal</button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">This is a modal body.</div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table -->
+      <h3 class="mt-4">Table</h3>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Jane Smith</td>
+            <td>jane@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Cards -->
+      <h3 class="mt-4">Cards</h3>
+      <div class="card-custom">
+        <h5>Card Title</h5>
+        <p>This is a card component styled with custom CSS.</p>
+      </div>
+
+      <!-- Form Controls -->
+      <h3 class="mt-4">Form Controls</h3>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInput" class="form-label">Example input</label>
+          <input type="text" class="form-control" id="exampleInput">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Select Option</label>
+          <select class="form-select">
+            <option>Option 1</option>
+            <option>Option 2</option>
+          </select>
+        </div>
+        <div class="form-check mb-3">
+          <input class="form-check-input" type="checkbox" id="check1">
+          <label class="form-check-label" for="check1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

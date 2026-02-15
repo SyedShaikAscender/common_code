@@ -1,0 +1,74 @@
+/* Info:start error-block styles */
+:root {
+    --error-message-background-color: #FBE9E7;
+    --error-message-border-color: #dc3545;
+    --error-message-header-text-size: 12px;
+    --error-message-header-text-color: #dc3545;
+    --error-message-text-color: #dc3545;
+    --error-message-text-size: 12px;
+}
+.error-message-groupbox {
+    display: block;
+    background: var(--error-message-background-color);
+    border-radius: 8px;
+}
+
+.error-message--header {
+    font-weight: 600;
+    font-size: var(--error-message-header-text-size);
+    color: var(--error-message-header-text-color);
+}
+
+.error-message--list {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 16px;
+}
+
+.error-message--listitem {
+    color: var(--error-message-text-color);
+    font-size: var(--error-message-text-size);
+}
+
+.error-message-groupbox p {
+    color: #dc3545 !important;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.rounded-0{
+    border-radius: 0px;
+}
+/* Info:end error-block styles */
+/* Info:start omne-card only styles */
+.esign-card,
+.omne-card {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: -2px 0 12px 0 rgba(0, 0, 0, 0.18);
+}
+/* Info:end omne-card only styles */
+/* Info:start omne-card summary and full details styles */
+.main_wrapper h4,
+.esign-card h4,
+.omne-card h4 {
+    color: #56a9ff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    padding: 1.5rem;
+}
+.bb-1 {
+    border-bottom: 1px solid #e7e7e7;
+}
+.main_wrapper h4 small,
+.esign-card h4 small,
+.omne-card h4 small {
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* Info:end omne-card summary and full details styles */

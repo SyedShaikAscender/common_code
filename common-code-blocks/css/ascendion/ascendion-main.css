@@ -1,0 +1,407 @@
+:root {
+    --width: 400px;
+    --font-family-one: 'Helvetica Neue';
+    --font-family-two: 'Neue Machina';
+    --sub-sidenav-width: 400px;
+    --primary-color: #000000;
+    --secondary-color: #00c1ad;
+    --white-color: white;
+    --list-hover-color: #f5f5f5;
+    --border-color: #cacaca;
+    --font-family-HN: 'Helvetica Neue';
+    --font-family-NM: 'Neue Machina';
+    --secondary-color-thin-light: #17c7b4;
+    --secondary-color-medium-light: #2cccbb;
+    --secondary-color-heavy-light: #3fd1c1;
+    --secondary-color-thin-dark: #00af9d;
+    --secondary-color-medium-dark: #009f8f;
+    --secondary-color-heavy-dark: #009182;
+    --green-color: #16c100;
+    --red-color: #e44700;
+    --color-head1: var(--secondary-color);
+    --color-orange: #ffb003;
+    --color-orange2: #CE4800;
+    --border-radius: 4px;
+    --color-charcoal: #485465;
+    --text-color-secondary: #00c1ad;
+    --text-hover-color-action: #CE4800;
+    /* Info: GAIN Variables */
+    --color-primary: #000000;
+    --color-primary-thin-light: #171717;
+    --color-primary-medium-light: #2c2c2c;
+    --color-primary-heavy-light: #3f3f3f;
+    --color-secondary: #00FAC2;
+    --color-secondary-thin-light: #000000;
+    --color-secondary-medium-dark: #00c69a;
+    --color-secondary-heavy-light: #EBFCF5;
+    --color-white: white;
+    --color-black: #000000;
+    --color-orange: #FFB003;
+    --color-green5: #CFF4FC;
+    --color-green6: #E1FAF0;
+    /* Info: whole layout width control vars 1261/ */
+    --whole-layout-max-width: 2560px;
+    /* Info: Top OMNE Bar :done  */
+    --top-omnebar-background-color: var(--color-primary);
+    --top-omnebar-height: 60px;
+    /* Info: Top Main Navigation :done  */
+    --main-navigation-background-color: var(--color-primary);
+    --main-navigation-height: 50px;
+    /* Info: Side Navigation :done  */
+    --side-navigation-width: 60px;
+    --side-navigation-background-color: var(--color-primary);
+    --side-navigation-item-background-color: #000000;
+    --side-navigation-item-hover-background-color: #000000;
+    --side-navigation-item-text-color: #ffffff;
+    --side-navigation-item-active-background-color: white;
+    --side-navigation-item-active-hover-background-color: white;
+    --side-navigation-item-active-text-color: #000000;
+    /* Info: Text/Font :done */
+    --fontfam-poppins: "Poppins", sans-serif;
+    --text-color-primary: var(--color-primary);
+    --text-color-secondary: #9b9b9b;
+    --text-color-secondary-thin-light: #56a9ff;
+    --text-color--secondary-color-medium-dark: var(--color-secondary-medium-dark);
+    --text-color-action-white: #ffffff;
+    --text-color-action: #000000;
+    --text-color-action2: #CE4800;
+    --text-color-green: #3a886a;
+    --text-color-green2: #00F9C1;
+    --text-color-green3: #048769;
+    --text-color-green4: #055160;
+    --text-color-green5: #CFF4FC;
+    --text-color-yellow: #FFC400;
+    --atag-text-color: var(--text-color-green3);
+    --atag-hover-text-color: var(--text-color-green4);
+    /* Info: form-group input colors */
+    --input-border-color: #e7e7e7;
+    --input-focus-border-color: #D3D3D3;
+    --input-border-hover-color: #e7e7e7;
+    --input-border-radius: 4px;
+    --input-label-color: #9b9b9b;
+    --input-label-text-size: 12px;
+    --input-label-inspan-text-size: 10px;
+    --input-text-color: #4a4a4a;
+    --input-font-size: 14px;
+    --input-focus-text-color: #495057;
+    --input-dropdown-background-color: #ffffff;
+    --input-dropdown-background-color-active: #ffffff;
+    --input-dropdown-background-color-disable: #ffffff;
+    --input-dropdown-caret-color: #ada9b8;
+    --input-dropdown-border-color: #d3d3d3;
+    --input-dropdown-text-color: #ada9b8;
+    --input-dropdown-caret-color-active: #000000;
+    --input-dropdown-caret-color-disable: #ADA9B8;
+    --input-dropdown-border-color-active: #000000;
+    --input-dropdown-border-color-disable: #ADA9B8;
+    --input-dropdown-text-color-active: #000000;
+    --input-dropdown-text-color-disable: #ADA9B8;
+    --input-dropdown-options-background-color: white;
+    --input-dropdown-options-text-color: rgba(0, 0, 0, 1);
+    --input-dropdown-options-background-selected-color: white;
+    --input-dropdown-options-text-color-selected: #000000;
+    /* --input-dropdown-options-background-selected-color: #EBFCF5; */
+    /* --input-dropdown-options-text-color-selected: #048769; */
+    --input-dropdown-options-hover-background-color: #f2f5f7;
+    --input-dropdown-options-selected-background-color: var(--color-secondary-heavy-light);
+    --input-dropdown-options-hover-text-color: var(--input-dropdown-options-text-color);
+    --input-icon-color: #495057;
+    --input-icon-background-color: #e9ecef;
+    --input-background-color: white;
+    --input-placeholder-color: #ADA9B8;
+    --input-disabled-background-color: #e9ecef;
+    --input-checkbox-border-color: var(--text-color-primary);
+    --input-checkbox-checked-background-color: #CE4800;
+    --input-chip-selected-background-color: var(--color-green6);
+    --input-chip-selected-text-color: var(--text-color-green3);
+    --input-upload-background-color: #ffffff;
+    --input-upload-background-color-hover: #f1f1f1;
+    /* Info: Button color variables */
+    --button-primary-border-color: #7261E3;
+    --button-primary-background-color: #7261E3;
+    --button-primary-border-color-hover: #7261E3;
+    --button-primary-background-color-hover: #7261e3eb;
+    --button-primary-text-color: #ffffff;
+    --button-primary-text-color-hover: #ffffff;
+    --button-primary-background-color-disbled: #ADA9B8;
+    --button-primary-border-color-disbled: #ADA9B8;
+    --button-primary-text-color-disbled: #ffffff;
+    --button-primary-outline-border-color: #7261E3;
+    --button-primary-outline-background-color: transparent;
+    --button-primary-outline-border-color-hover: #7261E3;
+    --button-primary-outline-background-color-hover: transparent;
+    --button-primary-outline-text-color: #7261E3;
+    --button-primary-outline-text-color-hover: #7261e3eb;
+    --button-primary-outline-background-color-disbled: #ada9b80c;
+    --button-primary-outline-border-color-disbled: #ADA9B8;
+    --button-primary-outline-text-color-disbled: #ADA9B8;
+    --button-secondary-border-color: #ADA9B8;
+    --button-secondary-background-color: #ADA9B8;
+    --button-secondary-border-color-hover: #ADA9B8;
+    --button-secondary-background-color-hover: #ADA9B8cc;
+    --button-secondary-text-color: white;
+    --button-secondary-outline-border-color: #ADA9B8;
+    --button-secondary-outline-background-color: white;
+    --button-secondary-outline-border-color-hover: #ADA9B8;
+    --button-secondary-outline-background-color-hover: white;
+    --button-secondary-outline-text-color: #ADA9B8;
+
+
+    --button-text-size: 14px;
+    --button-height: 35px;
+    --extra-options-block-height: 90px;
+    --var-minus-the-height: calc(360px - var(--top-omnebar-height));
+    --border-shadow-color: #cccccc;
+    /* Info: Input textarea vars */
+    --textarea-manual-prompt-height: 82px;
+    --textarea-border-color: #ada9b899;
+    --textarea-border: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='4' ry='4' stroke='%23ADA9B899' stroke-width='1' stroke-dasharray='0%2c 0' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    --textarea-border-radius: 4px;
+    --textarea-placeholder-color: #CDCAD3;
+    --textarea-text-size: 15px;
+    --textarea-text-line-height: 22px;
+    /* Info: History item variable */
+    --history-item-background-color: #f6f6f6;
+    --history-item-background-hover-color: #f6f6f6;
+    --history-item-border-color: #f6f6f6;
+    --history-item-border-hover-color: #f6f6f6;
+    --history-item-text-color: #000000;
+    --history-item-icon-color: #000000;
+    --history-item-active-background-color: #CE4800;
+    --history-item-active-background-hover-color: #CE4800;
+    --history-item-active-border-color: #CE4800;
+    --history-item-active-border-hover-color: #CE4800;
+    --history-item-active-text-color: #ffffff;
+    --history-item-active-icon-color: #ffffff;
+    --history-item-in-delete-process-background-color: #E3FFF3;
+    --history-item-in-delete-process-background-hover-color: #E3FFF3;
+    --history-item-in-delete-process-border-color: #E3FFF3;
+    --history-item-in-delete-process-border-hover-color: #E3FFF3;
+    --history-item-in-delete-process-text-color: #000000;
+    --history-item-in-delete-process-icon-color: #000000;
+    --history-item-active-N-in-delete-process-background-color: #E3FFF3;
+    --history-item-active-N-in-delete-process-background-hover-color: #E3FFF3;
+    --history-item-active-N-in-delete-process-border-color: #7261E3;
+    --history-item-active-N-in-delete-process-border-hover-color: #E3FFF3;
+    --history-item-active-N-in-delete-process-text-color: #000000;
+    --history-item-active-N-in-delete-process-icon-color: #000000;
+
+
+    /* Info: Table vars */
+    --table-head-border-color: #D3D3D3;
+    --table-head-background-color: #F4F4F4;
+    --table-head-text-color: #585B72;
+    --table-head-text-size: 14px;
+    --table-td-border-color: #D3D3D3;
+    --table-td-text-b-color: #6651E6;
+    --table-td-text-color: #4A4A4A;
+    --table-td-text-size: 14px;
+    --table-td-span-text-color: #9D97AC;
+    --table-tr-odd-background-color: #F6F6F6;
+    --table-tr-even-background-color: #F6F6F6;
+    --table-tr-active-background-color: #E8E4FF;
+    --table-tr-inactive-background-color: #FFEFE6;
+
+
+    /* Info: syntax for declaring variables */
+    /* --elementname-elementtype-csspropertyname-ifanyactive/disabled-onhover/focus : */
+    --card-header-height: 33px;
+    --card-header-background-color: rgb(255, 255, 255);
+    --card-header-text-color: #000000;
+    --aida-section-header-height: 44px;
+    --message-sender-background-color: #EDFFFB;
+    --message-receiver-background-color: #F9F9F9;
+    --message-picture-width: 30px;
+    --message-picture-height: 30px;
+    --input-textarea-height: 60px;
+    --textarea-part-width: 87%;
+}
+
+.bg-dark{
+    background: black !important;
+}
+.main-layout-section .layout-column-left{
+    flex: 1 1 var(--side-navigation-width);
+    max-width: var(--side-navigation-width);
+}
+.main-layout-section .layout-column-right{
+    flex: 1 1 calc(100% - var(--side-navigation-width));
+    max-width: calc(100% - var(--side-navigation-width));
+}
+
+aside{
+    background: black;
+}
+aside.main-aside ul li.level1 a{
+    border-radius: 4px;
+    color: white;
+}
+aside.main-aside ul li.level1.active a{
+    background: white;
+    color: black;
+}
+.text-color-white{
+    color: white;
+}
+.page-title-text{
+    opacity: 1;
+    color: rgba(0, 0, 0, 1);
+    font-family: "Neue Machina";
+    font-size: 16px;
+    font-weight: 700;
+    font-style: Bold;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 20px;
+}
+.company-name{
+    opacity: 1;
+    color: rgba(112, 116, 139, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 18px;
+    display: block;
+}
+.company-location{
+    opacity: 1;
+    color: rgba(112, 116, 139, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+    line-height: 18px;
+    display: block;
+}
+.job-title{
+    border-radius: 12px;
+    opacity: 1;
+    background-color: rgba(255, 245, 217, 1);
+    display: inline-block;
+}
+.job-title_label{
+    opacity: 1;
+    color: rgba(112, 116, 139, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 18px;
+    display: inline;
+}
+.job-title_text{
+    opacity: 1;
+    color: rgba(74, 74, 74, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 700;
+    font-style: Bold;
+    letter-spacing: 0px;
+    text-align: center;
+    line-height: 18px;
+    display: inline;
+}
+p.regular-text{
+    opacity: 1;
+    color: rgba(74, 74, 74, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+}
+p.regular-text span.subhead{
+        font-family: "Helvetica Neue";
+        font-weight: 700;
+        font-size: 14px;
+        color: #4A4A4A;
+        display: inline-block;
+}
+.regular-text--ul{
+    opacity: 1;
+    color: rgba(74, 74, 74, 1);
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: Regular;
+    letter-spacing: 0px;
+    text-align: left;
+    list-style: none;
+}
+.regular-text--ul li{
+    list-style:circle;
+}
+.regular-text--ul_liheadtext{
+        font-family: "Helvetica Neue";
+        font-weight: 700;
+        font-size: 14px;
+        color: #4A4A4A;
+        display: block;
+}
+.text-color-icon{
+    color: #4D5165;
+}
+/* Info: Report table styles START */
+.report-table thead tr th {
+    border-top: solid 1.5px var(--table-head-border-color);
+    border-bottom: solid 1.5px var(--table-head-border-color);
+    vertical-align: middle;
+    padding: 4px 8px;
+    color: var(--table-head-text-color);
+    background-color: var(--table-head-background-color);
+    /* text-transform: uppercase; */
+    font-size: var(--table-head-text-size);
+}
+
+.report-table tbody tr td {
+    border-bottom: solid 1px var(--table-td-border-color);
+    color: var(--table-td-text-color);
+    font-family: 'Helvetica Neue';
+    font-size: var(--table-td-text-size);
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 4px 8px;
+    vertical-align: middle;
+}
+.report-table tbody tr td b{
+    color: var(--table-td-text-b-color);
+    font-weight: 400 !important;
+    line-height: 24px;
+}
+.report-table tbody tr td>span {
+    color: var(--table-td-span-text-color);
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+}
+
+/* .report-table tbody tr th {
+    opacity: 1;
+    color: var(--table-head-text-color);
+    font-family: "HelveticaNeue-Medium";
+    font-size: var(--table-head-text-size);
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0px;
+    text-align: left;
+} */
+
+.table-striped tbody tr:nth-of-type(odd) {
+    /* background: none; */
+}
+
+.table.report-table tr:nth-of-type(even) {
+    /* background-color: var(--table-tr-even-background-color); */
+}
+
+/* Info: Report table styles END */
+
