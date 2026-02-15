@@ -9,20 +9,26 @@
 }
 .only-lines-1 {
     -webkit-line-clamp: 1;
+    line-clamp: 1;
 }
 .only-lines-2 {
     -webkit-line-clamp: 2;
+    line-clamp: 2;
 }
 .only-lines-3 {
     -webkit-line-clamp: 3;
+    line-clamp: 3;
 }
 .only-lines-4 {
     -webkit-line-clamp: 4;
+    line-clamp: 4;
 }
 .only-lines-5 {
     -webkit-line-clamp: 5;
+    line-clamp: 5;
 }
 .only-lines-6 {
     -webkit-line-clamp: 6;
+    line-clamp: 6;
 }
 /* Info: line limit END */
